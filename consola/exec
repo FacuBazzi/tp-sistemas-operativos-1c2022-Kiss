@@ -1,0 +1,6 @@
+#!/bin/bash
+FILE=consola
+make $FILE
+if test -f "./$FILE"; then
+    ./$FILE 30 instrucciones/instruccion1.txt
+fi

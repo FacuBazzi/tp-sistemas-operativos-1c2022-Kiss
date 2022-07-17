@@ -1,0 +1,28 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "kernel Normal",
+            "type": "shell",
+            "command": "./exec",
+            "problemMatcher": []
+        },
+        {
+            "label": "kernel Valgrind",
+            "type": "shell",
+            "command": "./vexec"
+        },
+        {
+            "label": "kernel Helgrind",
+            "type": "shell",
+            "command": "./hexec"
+        },
+        {
+            "label": "kernel Make clean",
+            "type": "shell",
+            "command": "make clean"
+        }
+    ]
+}

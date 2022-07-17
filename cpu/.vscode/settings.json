@@ -1,0 +1,13 @@
+{
+    "C_Cpp.dimInactiveRegions": false,
+    "files.associations": {
+        "config.h": "c",
+        "cpu.h": "c",
+        "stdbool.h": "c",
+        "shared_utils.h": "c",
+        "log.h": "c",
+        "stdio.h": "c",
+        "config_cpu.h": "c",
+        "stdint.h": "c"
+    }
+}
